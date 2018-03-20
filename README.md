@@ -14,12 +14,12 @@ CustomMemoPackage
 
 -	DatabaseInterface : 데이터베이스 유틸리티에 대해 반드시 포함해야할 기능을 설정하기 위해 작성된 인터페이스.
 
--	void connectDB() : 데이터베이스 연결
+	1.	void connectDB() : 데이터베이스 연결
 
--	void saveMemo(MemoModelInterface memoModelInterface) : 데이터모델 인터페이스를 받아 메모를 저장하는 메소드.
+	2.	void saveMemo(MemoModelInterface memoModelInterface) : 데이터모델 인터페이스를 받아 메모를 저장하는 메소드.
 
--	ArrayList<MemoModelInterface> loadMemo() : 메모 전체를 전달하는 메소드.
+	3.	ArrayList<MemoModelInterface> loadMemo() : 메모 전체를 전달하는 메소드.
 
--	void deleteMemoInDB(String memoTxt) : 메모중 지정한 메모를 지우는 메소드.
+	4.	void deleteMemoInDB(String memoTxt) : 메모중 지정한 메모를 지우는 메소드.
 
--	void closeDB() : 데이터베이스 연결을 중단하는 메소드.
+	5.	void closeDB() : 데이터베이스 연결을 중단하는 메소드.
