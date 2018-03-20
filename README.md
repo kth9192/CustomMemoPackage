@@ -6,7 +6,7 @@ CustomMemoPackage
 클래스 설명
 -----------
 
--	MemoModel : 데이터의 효율적 이용을 위해 추상화한 데이터모델. extends RealmObject 는 reaml database 를 사용하기 위해 상속된 클래스. 또한 반드시 공백 생성자를 포함하고 있어야한다.
+-	MemoModel : 데이터의 효율적 이용을 위해 추상화한 데이터모델. extends RealmObject 는 reaml database 를 사용하기 위해 상속된 클래스. 또한 반드시 공백 생성자를 포함하고 있어야한다. 인터페이스가 있기때문에 사용자 정의에 맞춰 조정할 수 있다.
 
 -	MemoModelInterface : 데이터모델에 가변적인 변화에도 타 클래스를 수정하기 않기 위해 인터페이스 조립. getMemo()를 필수적으로 설정.
 
